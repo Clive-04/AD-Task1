@@ -1,0 +1,22 @@
+.cat-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cat-card{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.kitten{
+    color: blue;
+    font-weight: bold;
+}
+
+.adult{
+    color: green;
+    font-weight: bold;
+}
