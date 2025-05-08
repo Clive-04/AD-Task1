@@ -6,9 +6,9 @@
 <?php
     $cats = [
         ["name" => "Mittens", "age" => 2, "breed" => "Siamese", "img" => "siamese.jpg"],
-        ["name" => "Salmon", "age" => 4, "breed" => "White", "img" => "white.jpg"],
-        ["name" => "Panda", "age" => 1.3, "breed" => "Tabby", "img" => "tabby.jpg"],
-        ["name" => "Luffy", "age" => 0.8, "breed" => "Ginger", "img" => "ginger.jpg"],
+        ["name" => "Snow", "age" => 4, "breed" => "White", "img" => "white.jpg"],
+        ["name" => "Milo", "age" => 1.3, "breed" => "Tabby", "img" => "tabby.jpg"],
+        ["name" => "Luffy", "age" => 0.5, "breed" => "Ginger", "img" => "ginger.jpg"],
         ["name" => "Zoro", "age" => 0.2, "breed" => "Calico", "img" => "calico.jpg"],
     ];
 

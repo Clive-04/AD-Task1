@@ -1,13 +1,13 @@
 <?php
     $shelterName = "Happy Paws Shelter";
-    $location = "Whiskerville";
+    $location = "Whiskerville, Manila";
 ?>
 <?php include("components/header.component.php"); ?>
 
 <link rel="stylesheet" href="assets/css/global.css">
 
 <div class="landing">
-    <img src="assets/img/cat banner.jpg" alt="Cat Banner" class="landing-img">
+    <img src="assets/img/catbanner.avif" alt="Cat Banner" class="landing-img">
 
     <div class="landing-overlay">
         <h1>Welcome to <?= $shelterName?>!</h1>

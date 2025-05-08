@@ -1,5 +1,5 @@
 body{
-    font-family: Cambria, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #fdf6f0;
     color: #333;
     padding: 20px;
@@ -18,35 +18,45 @@ a{
 .landing{
     position: relative;
     text-align: center;
-}
-
-.landing-text{
-    position: absolute;
-    top: 37%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 20px;
-    max-width: 80%;
-    z-index: 2;
-}
-
-.p-text{
-    font-weight: bold;
+    height: 90vh;
+    overflow: hidden;
 }
 
 .landing-img{
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+    border-radius: 0;
     display: block;
-    position: relative;
-    z-index: 1;
+}
+
+.landing-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0,0,0,0.2);
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 100%;
+    z-index: 2;
+}
+
+.landing-overlay h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.landing-overlay p{
+    font-size: 1.3rem;
+    margin: 8px 0;
 }
 
 .btn{
-    font-size: 16px;
+    font-size: 1rem;
     padding: 12px 24px;
     margin-top: 20px;
     background-color: #f08080;
@@ -86,4 +96,34 @@ a{
 .footer a{
     color: #333;
     text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .landing-overlay h1{
+        font-size: 2rem;
+    }
+
+    .landing-overlay p{
+        font-size: 1rem;
+    }
+
+    .btn{
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px){
+    .landing-overlay h1{
+        font-size: 1.5rem;
+    }
+
+    .landing-overlay p{
+        font-size: 0.9rem;
+    }
+
+    .btn{
+        font-size: 0.8rem;
+        padding: 8px 16px;
+    }
 }
