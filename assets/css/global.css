@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+a{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #ffb347;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.landing{
+    text-align: center;
+}
+
+.landing-img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn{
+    font-size: 16px;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #f08080;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
