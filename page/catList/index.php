@@ -26,5 +26,9 @@
     }
     echo "</div>";
 ?>
-<a href="../../index.php" class="btn">Back to Home</a>
+
+<div class="back-button-wrapper">
+  <a href="../../index.php" class="btn">Back to Home</a>
+</div>
+
 <script src="assets/js/catScript.js"></script>
