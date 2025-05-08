@@ -4,16 +4,16 @@
     $cats = [
         ["name" => "Mittens", "age" => 2, "breed" => "Siamese"],
         ["name" => "Salmon", "age" => 4, "breed" => "Persian"],
-        ["name" => "Panda", "age" => 2.3 "breed" => "Maine Coon"],
-        ["name" => "Luffy", "age" => 0.8 "breed" => "British Shorthair"],
-        ["name" => "Zoro", "age" => 0.5 "breed" => "Bengal"],
+        ["name" => "Panda", "age" => 2.3, "breed" => "Maine Coon"],
+        ["name" => "Luffy", "age" => 0.8, "breed" => "British Shorthair"],
+        ["name" => "Zoro", "age" => 0.5, "breed" => "Bengal"],
     ];
 
     echo "<div class='cat-list'>";
     foreach ($cats as $cat) {
         echo "<div class='cat-card'>";
         echo "<strong>{$cat['name']}</strong><br>Age: {$cat['age']} years<br>";
-        echho "Breed: {$cat['breed']}<br>";
+        echo "Breed: {$cat['breed']}<br>";
 
         if ($cat['age'] < 1){
             echo "<span class = 'kitten'>Kitten 🐱</span><br>";
