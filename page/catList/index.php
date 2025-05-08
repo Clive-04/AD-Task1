@@ -1,5 +1,8 @@
-<?php include("../../components/header.component.php"); ?>
+<?php include(__DIR__ . "/../../components/header.component.php"); ?>
 <link rel="stylesheet" href="assets/css/catStyle.css">
+
+<img src="assets/img/catbanner.webp" alt="Cat Banner" class="cat-page-banner">
+
 <?php
     $cats = [
         ["name" => "Mittens", "age" => 2, "breed" => "Siamese", "img" => "siamese.jpg"],
