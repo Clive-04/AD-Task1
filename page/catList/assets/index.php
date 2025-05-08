@@ -1,4 +1,4 @@
-<?php include("../../components/header.component.php"); ?>
+<?php include("../../../components/header.component.php"); ?>
 <link rel="stylesheet" href="assets/css/catStyle.css">
 <?php
     $cats = [
