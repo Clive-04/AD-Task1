@@ -1,7 +1,7 @@
 <?php include(__DIR__ . "/../../components/header.component.php"); ?>
 <link rel="stylesheet" href="assets/css/catStyle.css">
 
-<img src="assets/img/catbanner.webp" alt="Cat Banner" class="cat-page-banner">
+<img src="assets/img/catbanner.jpg" alt="Cat Banner" class="cat-page-banner">
 
 <?php
     $cats = [
