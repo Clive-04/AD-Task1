@@ -1,4 +1,4 @@
 <header>
-    <h1>🐾 Cat Shelter Viewer</h1>
+    <h1>🐾 Happy Paws Shelter</h1>
     <hr>
 </header>
