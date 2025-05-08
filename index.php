@@ -5,15 +5,27 @@
 <?php include("components/header.component.php"); ?>
 
 <link rel="stylesheet" href="assets/css/global.css">
+
 <div class="landing">
     <img src="assets/img/cat banner.jpg" alt="Cat Banner" class="landing-img">
     <div class="landing-text">
         <h1>Welcome to <?= $shelterName?>!</h1>
     </div>
     <div class="p-text">
-        <p>Your trusted place to find loving feline companions.</p>
+        <p>Your trusted place to find loving fur babies.</p>
         <p><strong>Location: </strong><?= $location ?></p>
     </div>
     <a href="./page/catList/index.php" class="btn">View Available Cats</a>
 </div>
+
+<section class="about">
+    <h2>Why Adopt from Us?</h2>
+    <p>We're passionate about rescuing, sheltering, and rehoming our feline friends. Every cat deserves a second chance at a happy home.</p>
+</section>
+
+<footer class="footer">
+    <p>&copy; <?=date("Y") ?> <? $shelterName ?>. All Rights Reserved.</p>
+    <p>Contact us at <a href="mailto:info@happypaws.com">info@happypaws.com</a></p>
+</footer>
+
 <script src="assets/js/global.js">
