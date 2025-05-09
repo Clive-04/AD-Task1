@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #fdf6f0;
     color: #333;
     padding: 20px;
@@ -37,7 +37,7 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(79, 48, 48, 0.2);
     padding: 30px;
     border-radius: 10px;
     width: 90%;
@@ -48,11 +48,13 @@ a{
 .landing-overlay h1{
     font-size: 4rem;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .landing-overlay p{
     font-size: 1.3rem;
     margin: 8px 0;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
 .btn{
