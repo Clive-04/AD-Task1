@@ -1,4 +1,5 @@
 <?php include(__DIR__."/../../components/header.component.php"); ?>
+<link rel="stylesheet" href="/../assets/css/global.css">
 <link rel="stylesheet" href="assets/css/profileStyle.css">
 
 <div class="cat-profile">
