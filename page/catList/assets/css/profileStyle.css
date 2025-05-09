@@ -52,6 +52,15 @@
     background-color: #a86d4a;
 }
 
+a{
+    display: inline-block;
+    background-color: #ffb347;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 .footer{
     text-align: center;
     background-color: #fdf6f0;
