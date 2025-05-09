@@ -20,17 +20,15 @@
             'breed' => $cat['breed'],
             'img' => $cat['img']
         ]);
+        echo "<a href='../catProfile/index.php?$query' class='cat-card-link' style='text-decoration: none; color: inherit;'>";
         echo "<div class='cat-card'>";
-        echo "<img src='assets/img/{$cat['img']}' alt='{$cat['name']}' class='cat-img'><br>";
+        echo "<img src='../../assets/img/{$cat['img']}' alt='{$cat['name']}' class='cat-img'><br>";
         echo "<strong>{$cat['name']}</strong><br>Age: {$cat['age']} years<br>";
         echo "Breed: {$cat['breed']}<br>";
     
-        if ($cat['age'] < 1){
-            echo "<span class='kitten'>Kitten 🐱</span><br>";
-        } else {
-            echo "<span class='adult'>Adult Cat 🐈</span><br>";
-        }
+        echo $cat['age'] < 1 ? "<span class='kitten'>Kitten 🐱</span><br>" : "<span class='adult'>Adult Cat 🐈</span><br>";
         echo "</div>";
+        echo "</a>";
     }
     echo "</div>";
 ?>
