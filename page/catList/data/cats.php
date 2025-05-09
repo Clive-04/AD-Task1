@@ -1,5 +1,5 @@
 <?php
-    $cats=[
+    $cat=[
         "mittens" => [
             "name" => "Mittens",
             "age" => 2,

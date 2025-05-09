@@ -12,7 +12,6 @@
 
     $catData = $cats[$catSlug];
 ?>
-    <link rel="stylesheet" href="assets/css/catStyle.css">
     <img src="assets/img/<?=$catData['img'] ?>" alt="<?=$catData['name'] ?>" class="cat-page-banner">
     <h1><?= $catData['name'] ?>'s Profile</h1>
     <p><strong>Age:</strong> <?= $cat['age'] ?> years</p>
