@@ -15,7 +15,7 @@
     echo "<div class='cat-list'>";
     foreach ($cats as $cat) {
         echo "<div class='cat-card'>";
-        echo "<a href='../../page/profile/{$cat['slug']}.php'>";
+        echo "<a href='profile.php?cat=".strtolower($cat['slug'])."'>";
         echo "<img src='assets/img/{$cat['img']}' alt='{$cat['name']}' class='cat-img'><br>";
         echo "</a>";
         echo "<strong>{$cat['name']}</strong><br>Age: {$cat['age']} years<br>";
