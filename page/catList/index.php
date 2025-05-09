@@ -37,4 +37,9 @@
     <a href="../../index.php" class="btn">Back to Home</a>
 </div>
 
+<footer class="footer">
+    <p>&copy; <?=date("Y") ?> <? $shelterName ?>. All Rights Reserved.</p>
+    <p>Contact us at <a href="mailto:info@happypaws.com">info@happypaws.com</a></p>
+</footer>
+
 <script src="assets/js/catScript.js"></script>

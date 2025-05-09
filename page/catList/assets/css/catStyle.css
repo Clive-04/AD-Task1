@@ -70,3 +70,17 @@ body{
     background-color: #e56767;
     transform: scale(1.05s);
 }
+
+.footer{
+    text-align: center;
+    background-color: #fdf6f0;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+}
+
+.footer a{
+    color: #333;
+    text-decoration: none;
+}
