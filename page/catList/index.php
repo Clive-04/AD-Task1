@@ -5,11 +5,11 @@
 
 <?php
     $cats = [
-        ["name" => "Mittens", "age" => 2, "breed" => "Siamese", "img" => "siamese.jpg", "slug" => "Mittens"],
-        ["name" => "Snow", "age" => 4, "breed" => "White", "img" => "white.jpg", "slug" => "Snow"],
-        ["name" => "Milo", "age" => 1.3, "breed" => "Tabby", "img" => "tabby.jpg", "slug" => "Milo"],
-        ["name" => "Luffy", "age" => 0.5, "breed" => "Ginger", "img" => "ginger.jpg", "slug" => "Luffy"],
-        ["name" => "Zoro", "age" => 0.2, "breed" => "Calico", "img" => "calico.jpg", "slug" => "Zoro"],
+        "mittens" => ["name" => "Mittens", "age" => 2, "breed" => "Siamese", "img" => "siamese.jpg", "slug" => "mittens"],
+        "snow" => ["name" => "Snow", "age" => 4, "breed" => "White", "img" => "white.jpg", "slug" => "snow"],
+        "milo" => ["name" => "Milo", "age" => 1.3, "breed" => "Tabby", "img" => "tabby.jpg", "slug" => "milo"],
+        "luffy" => ["name" => "Luffy", "age" => 0.5, "breed" => "Ginger", "img" => "ginger.jpg", "slug" => "luffy"],
+        "zoro" => ["name" => "Zoro", "age" => 0.2, "breed" => "Calico", "img" => "calico.jpg", "slug" => "zoro"],
     ];
 
     echo "<div class='cat-list'>";
@@ -33,7 +33,7 @@
 ?>
 
 <div class="back-button-wrapper">
-  <a href="../../index.php" class="btn">Back to Home</a>
+    <a href="../../index.php" class="btn">Back to Home</a>
 </div>
 
 <script src="assets/js/catScript.js"></script>
