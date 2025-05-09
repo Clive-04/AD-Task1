@@ -54,5 +54,5 @@
             "dislikes" => "Veterinarians, medicine",
             "img" => "calico.jpg"
         ]
-    ]
+    ];
 ?>
