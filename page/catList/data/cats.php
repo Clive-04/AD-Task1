@@ -20,7 +20,7 @@
             "likes" => "Cramped spaces, cat bed",
             "dislikes" => "Bathing",
             "img" => "white.jpg"
-        ]
+        ],
 
         "milo" => [
             "name" => "Milo",
@@ -31,7 +31,7 @@
             "likes" => "Cat bed, warm sunlight",
             "dislikes" => "Other animals",
             "img" => "milo.jpg"
-        ]
+        ],
 
         "luffy" => [
             "name" => "Luffy",
@@ -42,7 +42,7 @@
             "likes" => "Cat food, cat towers",
             "dislikes" => "Bathing",
             "img" => "ginger.jpg"
-        ]
+        ],
 
         "zoro" => [
             "name" => "Zoro",
