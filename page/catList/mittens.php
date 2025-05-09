@@ -6,6 +6,10 @@
     <img src="assets/img/siamese.jpg" alt="Mittens" class="profile-img">
     <p><strong>Age:</strong> 2 years</p>
     <p><strong>Breed:</strong> Siamese</p>
+    <p><strong>Personality:</strong> Vocal and Social</p>
+    <p><strong>Hobbies: </strong> Climbing and exploring high places</p>
+    <p><strong>Likes: </strong> Being talked to, Lots of attention</p>
+    <p><strong>Dislikes: </strong> Being confined, Being ignored</p>
     <p><strong>Status:</strong> Adult Cat 🐈</p>
 </div>
 
