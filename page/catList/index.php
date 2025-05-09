@@ -3,6 +3,11 @@
 
 <img src="assets/img/catbanner.jpg" alt="Cat Banner" class="cat-page-banner">
 
+<div class="banner-text">
+    <h2>Our Fur Babies Welcomes You With Warm Smiles!</h2>
+    <p>Explore our adorable cats looking for loving homes. Click on any cat to view their profile and learn more about them.</p>
+</div>
+
 <?php
     $cats = [
         ["name" => "Mittens", "age" => 2, "breed" => "Siamese", "img" => "siamese.jpg", "file" => "mittens.php"],

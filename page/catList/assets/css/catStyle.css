@@ -88,3 +88,22 @@ body{
     border-radius: 5px;
     text-decoration: none;
 }
+
+.banner-text {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-text h2 {
+    font-size: 2rem;
+    color: #4b2c20;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+}
