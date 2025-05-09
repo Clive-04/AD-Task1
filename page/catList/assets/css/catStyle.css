@@ -71,15 +71,6 @@ body{
     transform: scale(1.05s);
 }
 
-a{
-    display: inline-block;
-    background-color: #ffb347;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 .footer{
     text-align: center;
     background-color: #fdf6f0;
@@ -90,6 +81,10 @@ a{
 }
 
 .footer a{
+    display: inline-block;
     color: #333;
+    background-color: #ffb347;
+    padding: 10px 15px;
+    border-radius: 5px;
     text-decoration: none;
 }
