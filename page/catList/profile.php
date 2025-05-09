@@ -1,31 +1,18 @@
-<?php include(__DIR__."/../../components/header.component.php"); ?>
-<link rel="stylesheet" href="assets/css/catStyle.css">
+<?php 
+    include(__DIR__."/../../components/header.component.php");
 
-<?php
     include(__DIR__."/data/cats.php");
 
-    $cats = [
-        ["name" => "Mittens", "age" => 2, "breed" => "Siamese", "img" => "siamese.jpg", "slug" => "Mittens"],
-        ["name" => "Snow", "age" => 4, "breed" => "White", "img" => "white.jpg", "slug" => "Snow"],
-        ["name" => "Milo", "age" => 1.3, "breed" => "Tabby", "img" => "tabby.jpg", "slug" => "Milo"],
-        ["name" => "Luffy", "age" => 0.5, "breed" => "Ginger", "img" => "ginger.jpg", "slug" => "Luffy"],
-        ["name" => "Zoro", "age" => 0.2, "breed" => "Calico", "img" => "calico.jpg", "slug" => "Zoro"],
-    ];
+    <link rel="stylesheet" href="assets/css/catStyle.css">
 
     $catSlug = isset($_GET['cat']) ? strtolower($_GET['cat']) : '';
 
-    $catData = null;
-    foreach ($cats as $cat){
-        if (strtolower($cat['slug']) == $catSlug){
-            $catData = $cat;
-            break;
-        }
-    }
-
-    if ($catData == null){
+    if(!isset($cats[$catSlug])){
         echo "<h2>Cat not found!</h2>";
         exit;
     }
+
+    $catData = $cats[$catSlug];
 ?>
 
     <img src="assets/img/<?=$catData['img'] ?>" alt="<?=$catData['name'] ?>" class="cat-page-banner">
