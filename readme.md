@@ -140,3 +140,4 @@ AD-ProjectName
 | HTML/CSS Basics | Styling and structure                                                      | https://w3schools.com |
 | Cat Images | Used as visual elements for each cat profile | https://live.staticflickr.com/2155/1987167107_1f2ee00ab2_b.jpg https://tbrnewsmedia.com/wp-content/uploads/2023/09/N2304P35005H-scaled.jpg https://i.pinimg.com/originals/22/1f/6c/221f6c16f804bea0ddb42e48b83f74a7.jpg, https://th.bing.com/th/id/OIP.9-uQBZb657EBaOByboJwRgHaHv?cb=iwp2&rs=1&pid=ImgDetMain https://th.bing.com/th/id/OIP.CnPGt4uD9g_olJzo5tY6CgHaIp?cb=iwp2&rs=1&pid=ImgDetMain |
 | Banner Images | Serves as visual header for the cat listing | https://img.freepik.com/premium-vector/three-little-kittens-cartoon-illustration_241806-629.jpg?w=1800 https://image.shutterstock.com/image-vector/back-view-cute-cats-on-260nw-1734149036.jpg |
+| Logo Image | Serves as a logo for the website header | https://www.canva.com/design/DAGnOWvS680/O9nH9tPNLuzEkoV__9ID6g/edit |
