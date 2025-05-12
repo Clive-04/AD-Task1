@@ -23,7 +23,7 @@
         echo "<a href='{$cat['file']}' class='cat-card-link' style='text-decoration: none; color: inherit;'>";
         echo "<div class='cat-card'>";
         echo "<img src='assets/img/{$cat['img']}' alt='{$cat['name']}' class='cat-img'><br>";
-        echo "<strong>{$cat['name']}</strong><br>Age: {$cat['age']} years<br>";
+        echo "<strong>{$cat['name']}</strong><br>Age: {$cat['age']} year(s)<br>";
         echo "Breed: {$cat['breed']}<br>";
 
         if ($cat['age'] < 1) {
